@@ -6,3 +6,45 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Front End E-commerse
+
+## Ecommerse site
+
+Ecommerse is the react project for ecommerse shop bulit with material ui ,reduxjs/toolkit and react-router-dom
+
+**Buy as user or add product as admin.**
+
+## Installation
+
+Clone this repository in your local machine and install the needed dependencies
+
+Type **npm run dev** in terminal to start the application after installing the dependencies using **npm install**
+**_or_**
+**npm i \***
+
+## Technologies and Libraries used
+
+-vite
+-react-router-dom
+-reduxjs/toolkit
+-material ui
+-react-hook-form
+-yup
+-tenstack-query
+
+## Application Folder Structure
+
+```
+
+## Components and Pages of Application:
+
+## Links for the project
+
+Youtube Link :
+
+## Team Memebers
+
+- Amitava Roy
+- email(ramitava007@gmail.com)
+```
