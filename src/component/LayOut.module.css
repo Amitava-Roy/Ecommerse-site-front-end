@@ -1,0 +1,81 @@
+.link a {
+  color: white;
+  font-size: 1.8rem;
+  font-family: monospace;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+/* .link-active {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  letter-spacing: inherit;
+} */
+.navlink {
+  margin-left: 3.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+  transition: all 0.5s ease-out;
+}
+
+.navlink a {
+  color: white;
+  font-size: 1.8rem;
+  font-family: monospace;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+.navlink a:hover,
+a.active {
+  color: gold;
+}
+.icon {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .navlink {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #1976d2;
+    flex-grow: 1;
+    gap: 1rem;
+    transform: translateX(100%);
+    padding-right: 0.5rem;
+  }
+  .navlink a:first-child {
+    margin-top: 4rem;
+  }
+  .navlink a {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 0.8rem;
+  }
+  .navlink a:last-child {
+    margin-bottom: 16rem;
+  }
+  .open {
+    transform: translateX(0);
+  }
+  .icon {
+    display: inline-block;
+    position: absolute;
+    top: 0.8rem;
+    right: 0.2rem;
+    z-index: 9999;
+  }
+  .navlink a:hover,
+  a.active {
+    color: gold;
+  }
+}

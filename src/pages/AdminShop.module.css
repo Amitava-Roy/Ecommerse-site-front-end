@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container .btn {
+  max-width: 20rem;
+}

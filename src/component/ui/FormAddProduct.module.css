@@ -1,0 +1,17 @@
+.modal form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.modal {
+  position: relative;
+  padding: 2.8rem;
+}
+
+.modal .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-50%, 50%);
+}
