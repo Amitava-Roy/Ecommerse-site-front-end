@@ -41,7 +41,7 @@ Type **npm run dev** in terminal to start the application after installing the d
 
 ## Links for the project
 
-Youtube Link :
+Youtube Link : https://youtu.be/Kysb8hzT6WI
 
 ## Developed by
 
