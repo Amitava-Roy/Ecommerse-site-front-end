@@ -21,19 +21,21 @@ Clone this repository in your local machine and install the needed dependencies
 
 Type **npm run dev** in terminal to start the application after installing the dependencies using **npm install**
 **_or_**
-**npm i \***
+**npm i**
 
 ## Technologies and Libraries used
 
--vite
--react-router-dom
--reduxjs/toolkit
--material ui
--react-hook-form
--yup
--tenstack-query
+1. vite
+2. react-router-dom
+3. reduxjs/toolkit
+4. material ui
+5. react-hook-form
+6. yup
+7. tenstack-query
 
 ## Application Folder Structure
+
+```
 
 ```
 
@@ -43,8 +45,11 @@ Type **npm run dev** in terminal to start the application after installing the d
 
 Youtube Link :
 
-## Team Memebers
+## Developed by
 
 - Amitava Roy
 - email(ramitava007@gmail.com)
+
+```
+
 ```
