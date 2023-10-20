@@ -39,8 +39,6 @@ Type **npm run dev** in terminal to start the application after installing the d
 
 ```
 
-## Components and Pages of Application:
-
 ## Links for the project
 
 Youtube Link :
